@@ -1,0 +1,33 @@
+.VideoList {
+  display: flex;
+  position: relative;
+  object-fit: contain;
+}
+
+.VideoItem {
+  transform: scale(0.6);
+  margin: 0vw 0vw -6vw 80vw;
+  /* background-color: red; */
+}
+.VideoItemImg {
+  align-self: flex-start;
+  margin: 20px;
+}
+
+.VideoInfo {
+  /* background-color: aqua; */
+  margin: 0 0 0 3vh;
+}
+
+.VideoItemTitle {
+  font-weight: 600;
+}
+.VideoItemChannel {
+  top: 1vh;
+  font-weight: 400;
+  opacity: 0.5;
+}
+.VideoItemViews {
+  margin-top: 1vh;
+  opacity: 0.5;
+}
